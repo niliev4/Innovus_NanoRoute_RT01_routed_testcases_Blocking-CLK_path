@@ -1,0 +1,1239 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Mar 19 21:47:08 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v19.10-p002_1 (64bit) 04/19/2019 15:18 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 19.10-p002_1 NR190418-1643/19_10-UB (database version 18.20, 458.7.1) {superthreading v1.51}
+#@(#)CDS: AAE 19.10-b002 (64bit) 04/19/2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 19.10-p002_1 () Apr 19 2019 06:39:48 ( )
+#@(#)CDS: SYNTECH 19.10-b001_1 () Apr  4 2019 03:00:51 ( )
+#@(#)CDS: CPE v19.10-p002
+#@(#)CDS: IQuantus/TQuantus 19.1.0-e101 (64bit) Thu Feb 28 10:29:46 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set conf_qxconf_file NULL
+set conf_qxlib_file NULL
+set defHierChar /
+set init_design_settop 0
+set init_gnd_net VSS
+set init_lef_file gscl45nm.lef
+set init_mmmc_file read_MMMC_config.tcl
+set init_pwr_net VDD
+set init_verilog rng_self_calib_10_gates.v
+set init_top_cell rng_self_calib
+init_design
+floorPlan -s 1050 1100 5 5 5 5
+createPlaceBlockage -box { 160 167 263 170 }
+createPlaceBlockage -box { 216 981 246 997 }
+createPlaceBlockage -box { 385 186 388 320 }
+createPlaceBlockage -box { 918 166 975 167 }
+createPlaceBlockage -box { 669 945 675 965 }
+createPlaceBlockage -box { 72 958 75 1008 }
+createPlaceBlockage -box { 554 123 561 153 }
+createPlaceBlockage -box { 467 555 605 557 }
+createPlaceBlockage -box { 305 832 307 899 }
+createPlaceBlockage -box { 107 230 116 271 }
+createPlaceBlockage -box { 1015 425 1018 503 }
+createPlaceBlockage -box { 692 57 693 150 }
+createPlaceBlockage -box { 515 811 638 813 }
+createPlaceBlockage -box { 98 154 103 216 }
+createPlaceBlockage -box { 955 5 970 36 }
+createPlaceBlockage -box { 163 849 166 893 }
+createPlaceBlockage -box { 82 28 84 212 }
+createPlaceBlockage -box { 845 23 928 24 }
+createPlaceBlockage -box { 229 626 237 665 }
+createPlaceBlockage -box { 331 848 376 859 }
+createPlaceBlockage -box { 247 49 286 55 }
+createPlaceBlockage -box { 334 312 337 452 }
+createPlaceBlockage -box { 716 861 718 1016 }
+createPlaceBlockage -box { 402 324 413 330 }
+createPlaceBlockage -box { 591 780 659 784 }
+createPlaceBlockage -box { 711 687 821 691 }
+createPlaceBlockage -box { 44 291 57 309 }
+createPlaceBlockage -box { 508 347 576 350 }
+createPlaceBlockage -box { 441 134 455 162 }
+createPlaceBlockage -box { 935 886 958 888 }
+createPlaceBlockage -box { 746 998 799 999 }
+createPlaceBlockage -box { 295 118 304 123 }
+createPlaceBlockage -box { 6 283 19 287 }
+createPlaceBlockage -box { 391 363 456 365 }
+createPlaceBlockage -box { 468 221 469 256 }
+createPlaceBlockage -box { 662 676 729 682 }
+createPlaceBlockage -box { 435 386 488 392 }
+createPlaceBlockage -box { 369 505 453 506 }
+createPlaceBlockage -box { 234 418 259 436 }
+createPlaceBlockage -box { 897 531 900 606 }
+createPlaceBlockage -box { 607 474 612 477 }
+createPlaceBlockage -box { 267 365 269 382 }
+createPlaceBlockage -box { 212 170 247 177 }
+createPlaceBlockage -box { 733 924 737 966 }
+createPlaceBlockage -box { 347 510 348 543 }
+createPlaceBlockage -box { 748 659 774 666 }
+createPlaceBlockage -box { 258 894 262 971 }
+createPlaceBlockage -box { 879 382 909 392 }
+createPlaceBlockage -box { 269 819 271 900 }
+createPlaceBlockage -box { 918 928 977 931 }
+createPlaceBlockage -box { 275 282 362 283 }
+createPlaceBlockage -box { 961 329 970 363 }
+createPlaceBlockage -box { 905 319 1011 322 }
+createPlaceBlockage -box { 585 659 587 671 }
+createPlaceBlockage -box { 736 978 754 993 }
+createPlaceBlockage -box { 695 190 701 261 }
+createPlaceBlockage -box { 525 916 574 922 }
+createPlaceBlockage -box { 357 607 380 616 }
+createPlaceBlockage -box { 830 960 839 987 }
+createPlaceBlockage -box { 740 98 837 99 }
+createPlaceBlockage -box { 633 825 644 827 }
+createPlaceBlockage -box { 488 100 570 105 }
+createPlaceBlockage -box { 519 413 522 517 }
+createPlaceBlockage -box { 268 582 344 586 }
+createPlaceBlockage -box { 911 743 964 748 }
+createPlaceBlockage -box { 947 460 980 461 }
+createPlaceBlockage -box { 834 431 874 433 }
+createPlaceBlockage -box { 85 310 118 318 }
+createPlaceBlockage -box { 427 172 429 228 }
+createPlaceBlockage -box { 434 638 438 680 }
+createPlaceBlockage -box { 987 235 992 286 }
+createPlaceBlockage -box { 536 866 565 867 }
+createPlaceBlockage -box { 702 265 739 267 }
+createPlaceBlockage -box { 52 388 57 442 }
+createPlaceBlockage -box { 912 40 931 45 }
+createPlaceBlockage -box { 588 127 595 196 }
+createPlaceBlockage -box { 615 886 617 915 }
+createPlaceBlockage -box { 722 699 736 712 }
+createPlaceBlockage -box { 586 846 595 898 }
+createPlaceBlockage -box { 688 442 720 457 }
+createPlaceBlockage -box { 170 691 270 692 }
+createPlaceBlockage -box { 37 228 103 232 }
+createPlaceBlockage -box { 91 573 111 591 }
+createPlaceBlockage -box { 933 939 943 950 }
+createPlaceBlockage -box { 687 845 690 946 }
+createPlaceBlockage -box { 465 41 508 46 }
+createPlaceBlockage -box { 564 84 634 85 }
+createPlaceBlockage -box { 598 672 606 685 }
+createPlaceBlockage -box { 963 846 995 858 }
+createPlaceBlockage -box { 969 538 979 577 }
+createPlaceBlockage -box { 32 198 61 210 }
+createPlaceBlockage -box { 403 616 409 635 }
+createPlaceBlockage -box { 713 92 846 95 }
+createPlaceBlockage -box { 37 335 83 338 }
+createPlaceBlockage -box { 57 263 62 296 }
+createPlaceBlockage -box { 781 657 885 660 }
+createPlaceBlockage -box { 220 598 225 628 }
+createPlaceBlockage -box { 879 310 883 316 }
+createPlaceBlockage -box { 250 569 252 690 }
+createPlaceBlockage -box { 361 42 366 77 }
+createPlaceBlockage -box { 370 239 374 254 }
+createPlaceBlockage -box { 185 262 204 276 }
+createPlaceBlockage -box { 615 610 627 636 }
+createPlaceBlockage -box { 763 171 769 210 }
+createPlaceBlockage -box { 897 288 899 357 }
+createPlaceBlockage -box { 713 331 719 364 }
+createPlaceBlockage -box { 434 752 473 755 }
+createPlaceBlockage -box { 292 588 492 590 }
+createPlaceBlockage -box { 960 103 989 110 }
+createPlaceBlockage -box { 173 36 232 38 }
+createPlaceBlockage -box { 256 669 398 671 }
+createPlaceBlockage -box { 557 370 561 403 }
+createPlaceBlockage -box { 171 239 182 270 }
+createPlaceBlockage -box { 628 757 632 777 }
+createPlaceBlockage -box { 582 140 588 200 }
+createPlaceBlockage -box { 197 560 272 563 }
+createPlaceBlockage -box { 523 61 541 71 }
+createPlaceBlockage -box { 580 821 582 898 }
+createPlaceBlockage -box { 448 373 516 376 }
+createPlaceBlockage -box { 828 1001 891 1002 }
+createPlaceBlockage -box { 955 237 959 287 }
+createPlaceBlockage -box { 276 772 280 847 }
+createPlaceBlockage -box { 534 933 613 939 }
+createPlaceBlockage -box { 319 797 322 890 }
+createPlaceBlockage -box { 207 387 211 438 }
+createPlaceBlockage -box { 875 326 883 382 }
+createPlaceBlockage -box { 41 148 51 194 }
+createPlaceBlockage -box { 692 610 696 632 }
+createPlaceBlockage -box { 447 94 455 129 }
+createPlaceBlockage -box { 733 530 818 535 }
+createPlaceBlockage -box { 732 275 748 283 }
+createPlaceBlockage -box { 625 397 650 407 }
+createPlaceBlockage -box { 480 678 594 680 }
+createPlaceBlockage -box { 613 795 706 798 }
+createPlaceBlockage -box { 94 503 176 509 }
+createPlaceBlockage -box { 940 469 952 475 }
+createPlaceBlockage -box { 547 941 636 945 }
+createPlaceBlockage -box { 54 738 59 803 }
+createPlaceBlockage -box { 411 798 415 854 }
+createPlaceBlockage -box { 139 96 142 261 }
+createPlaceBlockage -box { 356 880 411 881 }
+createPlaceBlockage -box { 293 716 294 760 }
+createPlaceBlockage -box { 43 722 45 745 }
+createPlaceBlockage -box { 11 775 22 790 }
+createPlaceBlockage -box { 397 202 400 258 }
+createPlaceBlockage -box { 776 884 967 886 }
+createPlaceBlockage -box { 738 498 860 500 }
+createPlaceBlockage -box { 931 222 932 259 }
+createPlaceBlockage -box { 658 148 662 185 }
+createPlaceBlockage -box { 547 481 577 492 }
+createPlaceBlockage -box { 168 818 182 824 }
+createPlaceBlockage -box { 655 13 659 21 }
+createPlaceBlockage -box { 1002 105 1009 111 }
+createPlaceBlockage -box { 743 787 747 791 }
+createPlaceBlockage -box { 41 451 114 456 }
+createPlaceBlockage -box { 838 724 849 728 }
+createPlaceBlockage -box { 738 226 766 237 }
+createPlaceBlockage -box { 998 884 1005 896 }
+createPlaceBlockage -box { 716 457 724 484 }
+createPlaceBlockage -box { 639 219 640 308 }
+createPlaceBlockage -box { 938 440 948 460 }
+createPlaceBlockage -box { 1016 4 1018 162 }
+createPlaceBlockage -box { 398 907 401 1023 }
+createPlaceBlockage -box { 875 915 885 940 }
+createPlaceBlockage -box { 119 914 167 924 }
+createPlaceBlockage -box { 360 429 363 495 }
+createPlaceBlockage -box { 901 868 968 870 }
+createPlaceBlockage -box { 853 176 856 187 }
+createPlaceBlockage -box { 533 727 535 779 }
+createPlaceBlockage -box { 796 711 811 727 }
+createPlaceBlockage -box { 721 736 729 767 }
+createPlaceBlockage -box { 738 103 831 104 }
+createPlaceBlockage -box { 773 476 841 482 }
+createPlaceBlockage -box { 973 374 979 392 }
+createPlaceBlockage -box { 401 732 419 752 }
+createPlaceBlockage -box { 569 318 581 341 }
+createPlaceBlockage -box { 378 435 387 458 }
+createPlaceBlockage -box { 590 298 609 301 }
+createPlaceBlockage -box { 740 971 801 975 }
+createPlaceBlockage -box { 345 509 359 510 }
+createPlaceBlockage -box { 176 117 198 130 }
+createPlaceBlockage -box { 51 25 194 28 }
+createPlaceBlockage -box { 240 736 269 745 }
+createPlaceBlockage -box { 662 319 678 348 }
+createPlaceBlockage -box { 610 195 619 250 }
+createPlaceBlockage -box { 628 837 647 862 }
+createPlaceBlockage -box { 884 36 893 66 }
+createPlaceBlockage -box { 468 206 603 208 }
+createPlaceBlockage -box { 152 318 154 459 }
+createPlaceBlockage -box { 505 105 507 200 }
+createPlaceBlockage -box { 894 103 896 299 }
+createPlaceBlockage -box { 248 508 271 519 }
+createPlaceBlockage -box { 359 285 366 343 }
+createPlaceBlockage -box { 201 315 320 318 }
+createPlaceBlockage -box { 316 90 321 140 }
+createPlaceBlockage -box { 767 695 785 714 }
+createPlaceBlockage -box { 751 803 759 837 }
+createPlaceBlockage -box { 210 240 276 245 }
+createPlaceBlockage -box { 401 260 410 287 }
+createPlaceBlockage -box { 623 391 641 394 }
+createPlaceBlockage -box { 811 638 961 640 }
+createPlaceBlockage -box { 586 266 593 290 }
+createPlaceBlockage -box { 808 525 948 527 }
+createPlaceBlockage -box { 178 613 213 616 }
+createPlaceBlockage -box { 9 911 15 922 }
+createPlaceBlockage -box { 798 172 808 206 }
+createPlaceBlockage -box { 26 273 37 317 }
+createPlaceBlockage -box { 697 942 701 972 }
+createPlaceBlockage -box { 953 129 976 148 }
+createPlaceBlockage -box { 11 888 23 900 }
+createPlaceBlockage -box { 481 247 488 254 }
+createPlaceBlockage -box { 757 1001 827 1002 }
+createPlaceBlockage -box { 24 666 43 674 }
+createPlaceBlockage -box { 419 16 421 214 }
+createPlaceBlockage -box { 995 626 1001 650 }
+createPlaceBlockage -box { 155 659 160 706 }
+createPlaceBlockage -box { 383 495 441 500 }
+createPlaceBlockage -box { 589 569 637 577 }
+createPlaceBlockage -box { 506 647 602 648 }
+createPlaceBlockage -box { 143 429 151 452 }
+createPlaceBlockage -box { 522 910 523 970 }
+createPlaceBlockage -box { 528 409 544 422 }
+createPlaceBlockage -box { 342 708 429 710 }
+createPlaceBlockage -box { 404 608 456 612 }
+createPlaceBlockage -box { 970 946 997 953 }
+createPlaceBlockage -box { 389 244 391 369 }
+createPlaceBlockage -box { 948 512 955 530 }
+createPlaceBlockage -box { 59 807 70 821 }
+createPlaceBlockage -box { 86 895 96 899 }
+createPlaceBlockage -box { 864 500 866 516 }
+createPlaceBlockage -box { 531 977 545 981 }
+createPlaceBlockage -box { 891 640 899 645 }
+createPlaceBlockage -box { 707 819 708 900 }
+createPlaceBlockage -box { 63 311 66 326 }
+createPlaceBlockage -box { 830 832 836 838 }
+createPlaceBlockage -box { 552 418 670 421 }
+createPlaceBlockage -box { 1008 451 1014 488 }
+createPlaceBlockage -box { 1018 557 1023 591 }
+createPlaceBlockage -box { 298 657 335 661 }
+createPlaceBlockage -box { 441 644 459 646 }
+createPlaceBlockage -box { 405 939 431 948 }
+createPlaceBlockage -box { 328 595 339 601 }
+createPlaceBlockage -box { 784 486 824 494 }
+createPlaceBlockage -box { 214 332 216 514 }
+createPlaceBlockage -box { 657 357 658 402 }
+createPlaceBlockage -box { 212 94 215 120 }
+createPlaceBlockage -box { 183 872 241 874 }
+createPlaceBlockage -box { 272 8 290 31 }
+createPlaceBlockage -box { 766 427 773 460 }
+createPlaceBlockage -box { 754 760 761 772 }
+createPlaceBlockage -box { 54 672 144 677 }
+createPlaceBlockage -box { 663 589 723 592 }
+createPlaceBlockage -box { 935 670 945 711 }
+createPlaceBlockage -box { 835 400 853 427 }
+createPlaceBlockage -box { 464 486 472 511 }
+createPlaceBlockage -box { 606 659 610 706 }
+createPlaceBlockage -box { 976 324 984 332 }
+createPlaceBlockage -box { 949 404 960 415 }
+createPlaceBlockage -box { 1000 325 1003 419 }
+createPlaceBlockage -box { 903 570 915 606 }
+createPlaceBlockage -box { 203 354 212 369 }
+createPlaceBlockage -box { 846 252 859 279 }
+createPlaceBlockage -box { 330 781 491 784 }
+createPlaceBlockage -box { 786 874 894 877 }
+createPlaceBlockage -box { 655 113 675 135 }
+createPlaceBlockage -box { 826 256 833 310 }
+createPlaceBlockage -box { 265 824 269 903 }
+createPlaceBlockage -box { 939 893 950 918 }
+createPlaceBlockage -box { 563 421 571 436 }
+createPlaceBlockage -box { 942 384 959 391 }
+createPlaceBlockage -box { 530 117 608 118 }
+createPlaceBlockage -box { 960 232 981 233 }
+createPlaceBlockage -box { 550 516 563 538 }
+createPlaceBlockage -box { 572 209 574 270 }
+createPlaceBlockage -box { 824 595 838 628 }
+createPlaceBlockage -box { 1008 623 1009 664 }
+createPlaceBlockage -box { 748 774 750 837 }
+createPlaceBlockage -box { 84 623 95 653 }
+createPlaceBlockage -box { 188 245 241 254 }
+createPlaceBlockage -box { 31 848 49 859 }
+createPlaceBlockage -box { 480 962 489 1009 }
+createPlaceBlockage -box { 52 826 60 868 }
+createPlaceBlockage -box { 602 891 612 925 }
+createPlaceBlockage -box { 475 319 492 340 }
+createPlaceBlockage -box { 695 121 738 132 }
+createPlaceBlockage -box { 539 280 540 290 }
+createPlaceBlockage -box { 168 260 170 349 }
+createPlaceBlockage -box { 404 202 406 217 }
+createPlaceBlockage -box { 96 700 139 703 }
+createPlaceBlockage -box { 506 27 511 32 }
+createPlaceBlockage -box { 112 900 217 904 }
+createPlaceBlockage -box { 16 926 24 944 }
+createPlaceBlockage -box { 368 379 371 390 }
+createPlaceBlockage -box { 985 965 989 979 }
+createPlaceBlockage -box { 940 641 961 664 }
+createPlaceBlockage -box { 442 307 457 309 }
+createPlaceBlockage -box { 238 330 260 334 }
+createPlaceBlockage -box { 47 375 49 382 }
+createPlaceBlockage -box { 436 275 442 349 }
+createPlaceBlockage -box { 605 342 620 350 }
+createPlaceBlockage -box { 681 472 686 491 }
+createPlaceBlockage -box { 983 858 995 862 }
+createPlaceBlockage -box { 327 439 328 476 }
+createPlaceBlockage -box { 180 712 224 714 }
+createPlaceBlockage -box { 730 623 734 650 }
+createPlaceBlockage -box { 996 824 999 844 }
+createPlaceBlockage -box { 0 373 6 394 }
+createPlaceBlockage -box { 745 623 786 628 }
+createPlaceBlockage -box { 331 673 333 754 }
+createPlaceBlockage -box { 25 93 28 207 }
+createPlaceBlockage -box { 476 200 573 202 }
+createPlaceBlockage -box { 881 624 954 627 }
+createPlaceBlockage -box { 739 632 764 649 }
+createPlaceBlockage -box { 163 415 171 419 }
+createPlaceBlockage -box { 137 94 139 247 }
+createPlaceBlockage -box { 887 823 894 826 }
+createPlaceBlockage -box { 901 921 903 940 }
+createPlaceBlockage -box { 532 18 546 38 }
+createPlaceBlockage -box { 299 841 303 952 }
+createPlaceBlockage -box { 721 805 727 881 }
+createPlaceBlockage -box { 495 422 505 472 }
+createPlaceBlockage -box { 306 505 312 543 }
+createPlaceBlockage -box { 28 44 31 111 }
+createPlaceBlockage -box { 923 200 937 213 }
+createPlaceBlockage -box { 861 593 873 595 }
+createPlaceBlockage -box { 313 188 375 194 }
+createPlaceBlockage -box { 714 251 763 256 }
+createPlaceBlockage -box { 724 485 762 497 }
+createPlaceBlockage -box { 477 731 504 746 }
+createPlaceBlockage -box { 671 169 782 171 }
+createPlaceBlockage -box { 55 363 76 372 }
+createPlaceBlockage -box { 29 343 73 349 }
+createPlaceBlockage -box { 401 414 412 427 }
+createPlaceBlockage -box { 575 1 584 20 }
+createPlaceBlockage -box { 829 894 856 895 }
+createPlaceBlockage -box { 650 627 660 659 }
+createPlaceBlockage -box { 603 945 610 999 }
+createPlaceBlockage -box { 319 33 330 58 }
+createPlaceBlockage -box { 310 464 311 476 }
+createPlaceBlockage -box { 602 527 605 531 }
+createPlaceBlockage -box { 2 718 9 759 }
+createPlaceBlockage -box { 222 575 244 577 }
+createPlaceBlockage -box { 942 784 1012 788 }
+createPlaceBlockage -box { 601 104 635 115 }
+createPlaceBlockage -box { 710 258 802 262 }
+createPlaceBlockage -box { 914 968 942 972 }
+createPlaceBlockage -box { 766 403 814 409 }
+createPlaceBlockage -box { 422 519 424 542 }
+createPlaceBlockage -box { 502 285 503 343 }
+createPlaceBlockage -box { 184 836 212 849 }
+createPlaceBlockage -box { 646 58 654 96 }
+createPlaceBlockage -box { 655 582 661 613 }
+createPlaceBlockage -box { 733 347 740 409 }
+createPlaceBlockage -box { 232 1000 265 1008 }
+createPlaceBlockage -box { 920 383 931 396 }
+createPlaceBlockage -box { 464 151 501 158 }
+createPlaceBlockage -box { 367 294 380 305 }
+createPlaceBlockage -box { 254 481 271 506 }
+createPlaceBlockage -box { 505 614 512 639 }
+createPlaceBlockage -box { 292 815 296 866 }
+createPlaceBlockage -box { 419 373 427 398 }
+createPlaceBlockage -box { 203 906 206 945 }
+createPlaceBlockage -box { 337 408 405 410 }
+createPlaceBlockage -box { 247 815 250 830 }
+createPlaceBlockage -box { 189 210 210 222 }
+createPlaceBlockage -box { 380 97 387 134 }
+createPlaceBlockage -box { 654 176 657 327 }
+createPlaceBlockage -box { 238 297 268 306 }
+createPlaceBlockage -box { 414 246 424 258 }
+createPlaceBlockage -box { 217 852 227 856 }
+createPlaceBlockage -box { 656 818 658 938 }
+createPlaceBlockage -box { 787 265 793 284 }
+createPlaceBlockage -box { 532 719 557 722 }
+createPlaceBlockage -box { 212 529 221 556 }
+createPlaceBlockage -box { 237 72 290 80 }
+createPlaceBlockage -box { 194 42 199 107 }
+createPlaceBlockage -box { 1012 908 1014 915 }
+createPlaceBlockage -box { 47 554 48 567 }
+createPlaceBlockage -box { 749 336 762 341 }
+createPlaceBlockage -box { 367 426 376 477 }
+createPlaceBlockage -box { 801 831 805 834 }
+createPlaceBlockage -box { 898 63 916 82 }
+createPlaceBlockage -box { 152 801 192 802 }
+createPlaceBlockage -box { 437 3 490 9 }
+createPlaceBlockage -box { 625 330 640 341 }
+createPlaceBlockage -box { 88 657 92 667 }
+createPlaceBlockage -box { 503 305 511 318 }
+createPlaceBlockage -box { 873 966 902 968 }
+createPlaceBlockage -box { 849 233 881 240 }
+createPlaceBlockage -box { 1015 233 1017 374 }
+createPlaceBlockage -box { 430 517 442 518 }
+createPlaceBlockage -box { 304 531 305 574 }
+createPlaceBlockage -box { 368 14 377 18 }
+createPlaceBlockage -box { 103 666 120 670 }
+createPlaceBlockage -box { 117 391 121 416 }
+createPlaceBlockage -box { 320 917 369 918 }
+createPlaceBlockage -box { 304 37 310 47 }
+createPlaceBlockage -box { 927 48 929 96 }
+createPlaceBlockage -box { 93 938 133 948 }
+createPlaceBlockage -box { 534 557 538 645 }
+createPlaceBlockage -box { 788 743 811 763 }
+createPlaceBlockage -box { 22 866 27 880 }
+createPlaceBlockage -box { 421 98 434 114 }
+createPlaceBlockage -box { 270 710 277 748 }
+createPlaceBlockage -box { 534 399 553 407 }
+createPlaceBlockage -box { 155 60 174 76 }
+createPlaceBlockage -box { 843 620 872 633 }
+createPlaceBlockage -box { 905 844 925 849 }
+createPlaceBlockage -box { 836 692 932 697 }
+createPlaceBlockage -box { 288 320 295 385 }
+createPlaceBlockage -box { 779 12 798 19 }
+createPlaceBlockage -box { 121 445 126 479 }
+createPlaceBlockage -box { 516 22 528 29 }
+createPlaceBlockage -box { 927 417 972 420 }
+createPlaceBlockage -box { 905 788 908 808 }
+createPlaceBlockage -box { 556 203 569 205 }
+createPlaceBlockage -box { 455 507 457 564 }
+createPlaceBlockage -box { 685 553 696 575 }
+createPlaceBlockage -box { 194 937 200 981 }
+createPlaceBlockage -box { 957 844 963 868 }
+createPlaceBlockage -box { 474 878 484 905 }
+createPlaceBlockage -box { 144 344 146 388 }
+createPlaceBlockage -box { 145 604 151 654 }
+createPlaceBlockage -box { 633 518 739 522 }
+createPlaceBlockage -box { 178 73 180 100 }
+createPlaceBlockage -box { 280 159 398 162 }
+createPlaceBlockage -box { 122 832 182 839 }
+createPlaceBlockage -box { 289 417 290 457 }
+createPlaceBlockage -box { 637 636 640 727 }
+createPlaceBlockage -box { 58 597 64 612 }
+createPlaceBlockage -box { 982 707 995 719 }
+createPlaceBlockage -box { 856 291 881 299 }
+createPlaceBlockage -box { 275 708 285 709 }
+createPlaceBlockage -box { 29 119 35 156 }
+createPlaceBlockage -box { 772 361 775 389 }
+createPlaceBlockage -box { 512 847 514 970 }
+createPlaceBlockage -box { 838 898 934 900 }
+createPlaceBlockage -box { 121 42 130 72 }
+createPlaceBlockage -box { 13 737 34 747 }
+createPlaceBlockage -box { 934 561 945 606 }
+createPlaceBlockage -box { 689 491 708 512 }
+createPlaceBlockage -box { 684 878 687 972 }
+createPlaceBlockage -box { 783 167 838 170 }
+createPlaceBlockage -box { 155 417 157 457 }
+createPlaceBlockage -box { 728 1016 828 1021 }
+createPlaceBlockage -box { 855 27 863 88 }
+createPlaceBlockage -box { 155 207 352 209 }
+createPlaceBlockage -box { 948 240 953 247 }
+createPlaceBlockage -box { 469 626 497 636 }
+createPlaceBlockage -box { 672 709 684 723 }
+createPlaceBlockage -box { 843 481 912 482 }
+createPlaceBlockage -box { 958 727 1002 738 }
+createPlaceBlockage -box { 22 15 39 43 }
+createPlaceBlockage -box { 508 992 530 1014 }
+createPlaceBlockage -box { 388 617 397 645 }
+createPlaceBlockage -box { 339 625 346 668 }
+createPlaceBlockage -box { 820 300 822 328 }
+createPlaceBlockage -box { 722 172 730 187 }
+createPlaceBlockage -box { 644 132 648 211 }
+createPlaceBlockage -box { 458 671 497 672 }
+createPlaceBlockage -box { 672 204 682 248 }
+createPlaceBlockage -box { 359 523 398 524 }
+createPlaceBlockage -box { 246 408 276 409 }
+createPlaceBlockage -box { 597 685 602 733 }
+createPlaceBlockage -box { 187 291 241 294 }
+createPlaceBlockage -box { 997 537 1007 555 }
+createPlaceBlockage -box { 191 178 268 179 }
+createPlaceBlockage -box { 909 821 912 843 }
+createPlaceBlockage -box { 230 717 253 728 }
+createPlaceBlockage -box { 12 433 13 496 }
+createPlaceBlockage -box { 953 441 981 444 }
+createPlaceBlockage -box { 790 1004 902 1007 }
+createPlaceBlockage -box { 247 763 352 766 }
+createPlaceBlockage -box { 613 124 629 151 }
+createPlaceBlockage -box { 33 718 36 735 }
+createPlaceBlockage -box { 99 614 129 630 }
+createPlaceBlockage -box { 577 122 581 201 }
+createPlaceBlockage -box { 247 635 250 651 }
+createPlaceBlockage -box { 960 812 964 831 }
+createPlaceBlockage -box { 123 754 129 805 }
+createPlaceBlockage -box { 540 326 551 336 }
+createPlaceBlockage -box { 618 379 619 401 }
+createPlaceBlockage -box { 315 678 321 690 }
+createPlaceBlockage -box { 828 44 850 54 }
+createPlaceBlockage -box { 403 225 422 232 }
+createPlaceBlockage -box { 863 912 873 939 }
+createPlaceBlockage -box { 21 373 25 464 }
+createPlaceBlockage -box { 317 409 320 501 }
+createPlaceBlockage -box { 659 276 682 286 }
+createPlaceBlockage -box { 815 258 823 261 }
+createPlaceBlockage -box { 61 469 64 508 }
+createPlaceBlockage -box { 638 553 668 567 }
+createPlaceBlockage -box { 563 729 571 740 }
+createPlaceBlockage -box { 604 740 631 750 }
+createPlaceBlockage -box { 601 7 670 11 }
+createPlaceBlockage -box { 910 811 938 812 }
+createPlaceBlockage -box { 925 256 928 295 }
+createPlaceBlockage -box { 170 945 182 962 }
+createPlaceBlockage -box { 577 367 587 376 }
+createPlaceBlockage -box { 579 770 584 797 }
+saveDesign rng_self_calib_floorplan.enc
+setPlaceMode -timingDriven true -congEffort auto -place_global_place_io_pins true
+report_message -start_cmd
+getRouteMode -maxRouteLayer -quiet
+getRouteMode -user -maxRouteLayer
+getPlaceMode -user -maxRouteLayer
+getPlaceMode -quiet -adaptiveFlowMode
+getPlaceMode -timingDriven -quiet
+getPlaceMode -adaptive -quiet
+getPlaceMode -relaxSoftBlockageMode -quiet
+getPlaceMode -user -relaxSoftBlockageMode
+getPlaceMode -ignoreScan -quiet
+getPlaceMode -user -ignoreScan
+getPlaceMode -repairPlace -quiet
+getPlaceMode -user -repairPlace
+getPlaceMode -inPlaceOptMode -quiet
+getPlaceMode -quiet -bypassFlowEffortHighChecking
+getDesignMode -quiet -siPrevention
+getPlaceMode -exp_slack_driven -quiet
+um::push_snapshot_stack
+getDesignMode -quiet -flowEffort
+getDesignMode -highSpeedCore -quiet
+getPlaceMode -quiet -adaptive
+set spgFlowInInitialPlace 1
+getPlaceMode -sdpAlignment -quiet
+getPlaceMode -softGuide -quiet
+getPlaceMode -useSdpGroup -quiet
+getPlaceMode -sdpAlignment -quiet
+getPlaceMode -enableDbSaveAreaPadding -quiet
+getPlaceMode -quiet -wireLenOptEffort
+getPlaceMode -sdpPlace -quiet
+getPlaceMode -exp_slack_driven -quiet
+getPlaceMode -sdpPlace -quiet
+getPlaceMode -groupHighLevelClkGate -quiet
+setvar spgRptErrorForScanConnection 0
+getPlaceMode -place_global_exp_allow_missing_scan_chain -quiet
+getPlaceMode -place_design_floorplan_mode
+getPlaceMode -place_check_library -quiet
+getPlaceMode -trimView -quiet
+getPlaceMode -expTrimOptBeforeTDGP -quiet
+getPlaceMode -quiet -useNonTimingDeleteBufferTree
+getPlaceMode -congEffort -quiet
+getPlaceMode -relaxSoftBlockageMode -quiet
+getPlaceMode -user -relaxSoftBlockageMode
+getPlaceMode -ignoreScan -quiet
+getPlaceMode -user -ignoreScan
+getPlaceMode -repairPlace -quiet
+getPlaceMode -user -repairPlace
+getPlaceMode -congEffort -quiet
+getPlaceMode -fp -quiet
+getPlaceMode -timingDriven -quiet
+getPlaceMode -user -timingDriven
+getPlaceMode -fastFp -quiet
+getPlaceMode -clusterMode -quiet
+get_proto_model -type_match {flex_module flex_instgroup} -committed -name -tcl
+getPlaceMode -inPlaceOptMode -quiet
+getPlaceMode -quiet -bypassFlowEffortHighChecking
+getPlaceMode -ultraCongEffortFlow -quiet
+getPlaceMode -forceTiming -quiet
+getPlaceMode -fp -quiet
+getPlaceMode -fastfp -quiet
+getPlaceMode -timingDriven -quiet
+getPlaceMode -fp -quiet
+getPlaceMode -fastfp -quiet
+getPlaceMode -powerDriven -quiet
+getExtractRCMode -quiet -engine
+getAnalysisMode -quiet -clkSrcPath
+getAnalysisMode -quiet -clockPropagation
+getAnalysisMode -quiet -cppr
+setExtractRCMode -engine preRoute
+setAnalysisMode -clkSrcPath false -clockPropagation forcedIdeal
+getPlaceMode -exp_slack_driven -quiet
+isAnalysisModeSetup
+getPlaceMode -place_global_exp_balance_buffer_chain -quiet
+getPlaceMode -place_global_exp_balance_pipeline -quiet
+getPlaceMode -tdgpMemFlow -quiet
+getPlaceMode -user -resetCombineRFLevel
+getPlaceMode -quiet -resetCombineRFLevel
+setPlaceMode -resetCombineRFLevel 1000
+setvar spgSpeedupBuildVSM 1
+getPlaceMode -tdgpResetCteTG -quiet
+getPlaceMode -macroPlaceMode -quiet
+getPlaceMode -enableDistPlace -quiet
+getPlaceMode -exp_slack_driven -quiet
+getPlaceMode -place_global_ignore_spare -quiet
+getPlaceMode -enableDistPlace -quiet
+getPlaceMode -quiet -expNewFastMode
+setPlaceMode -expHiddenFastMode 1
+setPlaceMode -reset -ignoreScan
+getPlaceMode -quiet -place_global_exp_auto_finish_floorplan
+colorizeGeometry
+getPlaceMode -quiet -IOSlackAdjust
+getPlaceMode -tdgpCteZeroDelayModeDelBuf -quiet
+set_global timing_enable_zero_delay_analysis_mode true
+getPlaceMode -quiet -useNonTimingDeleteBufferTree
+getPlaceMode -quiet -prePlaceOptSimplifyNetlist
+getPlaceMode -quiet -enablePrePlaceOptimizations
+getPlaceMode -quiet -prePlaceOptDecloneInv
+deleteBufferTree -decloneInv
+getPlaceMode -tdgpCteZeroDelayModeDelBuf -quiet
+set_global timing_enable_zero_delay_analysis_mode false
+getAnalysisMode -quiet -honorClockDomains
+getPlaceMode -honorUserPathGroup -quiet
+getAnalysisMode -quiet -honorClockDomains
+set delaycal_use_default_delay_limit 101
+set delaycal_default_net_delay 0
+set delaycal_default_net_load 0
+set delaycal_default_net_load_ignore_for_ilm 0
+getAnalysisMode -clkSrcPath -quiet
+getAnalysisMode -clockPropagation -quiet
+getAnalysisMode -checkType -quiet
+buildTimingGraph
+getDelayCalMode -ignoreNetLoad -quiet
+getDelayCalMode -ignoreNetLoad -quiet
+setDelayCalMode -ignoreNetLoad true -quiet
+get_global timing_enable_path_group_priority
+get_global timing_constraint_enable_group_path_resetting
+set_global timing_enable_path_group_priority false
+set_global timing_constraint_enable_group_path_resetting false
+getOptMode -allowPreCTSClkSrcPaths -quiet
+set_global _is_ipo_interactive_path_groups 1
+group_path -name in2reg_tmp.25620 -from {0x46 0x49} -to 0x4a -ignore_source_of_trigger_arc
+getOptMode -allowPreCTSClkSrcPaths -quiet
+set_global _is_ipo_interactive_path_groups 1
+group_path -name in2out_tmp.25620 -from {0x4d 0x50} -to 0x51 -ignore_source_of_trigger_arc
+set_global _is_ipo_interactive_path_groups 1
+group_path -name reg2reg_tmp.25620 -from 0x53 -to 0x54
+set_global _is_ipo_interactive_path_groups 1
+group_path -name reg2out_tmp.25620 -from 0x57 -to 0x58
+setPathGroupOptions reg2reg_tmp.25620 -effortLevel high
+reset_path_group -name in2out_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+setDelayCalMode -ignoreNetLoad false
+set delaycal_use_default_delay_limit 1000
+set delaycal_default_net_delay 1000ps
+set delaycal_default_net_load 0.5pf
+set delaycal_default_net_load_ignore_for_ilm 0
+getPlaceMode -place_global_exp_ignore_low_effort_path_groups -quiet
+getPlaceMode -exp_slack_driven -quiet
+getAnalysisMode -quiet -honorClockDomains
+getPlaceMode -quiet -expSkipGP
+setDelayCalMode -engine feDc
+psp::embedded_egr_init_
+psp::embedded_egr_term_
+psp::embedded_egr_init_
+psp::embedded_egr_term_
+psp::embedded_egr_init_
+psp::embedded_egr_term_
+psp::embedded_egr_init_
+psp::embedded_egr_term_
+scanReorder
+setDelayCalMode -engine aae
+getPlaceMode -exp_slack_driven -quiet
+reset_path_group -name reg2reg_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+reset_path_group -name reg2out_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+reset_path_group -name in2reg_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+set_global timing_enable_path_group_priority $gpsPrivate::optSave_ctePGPriority
+set_global timing_constraint_enable_group_path_resetting $gpsPrivate::optSave_ctePGResetting
+getPlaceMode -quiet -tdgpAdjustNetWeightBySlack
+get_ccopt_clock_trees *
+getPlaceMode -exp_insert_guidance_clock_tree -quiet
+getPlaceMode -exp_cluster_based_high_fanout_buffering -quiet
+getPlaceMode -place_global_exp_incr_skp_preserve_mode_v2 -quiet
+getAnalysisMode -quiet -honorClockDomains
+getPlaceMode -honorUserPathGroup -quiet
+getAnalysisMode -quiet -honorClockDomains
+set delaycal_use_default_delay_limit 101
+set delaycal_default_net_delay 0
+set delaycal_default_net_load 0
+set delaycal_default_net_load_ignore_for_ilm 0
+getAnalysisMode -clkSrcPath -quiet
+getAnalysisMode -clockPropagation -quiet
+getAnalysisMode -checkType -quiet
+buildTimingGraph
+getDelayCalMode -ignoreNetLoad -quiet
+getDelayCalMode -ignoreNetLoad -quiet
+setDelayCalMode -ignoreNetLoad true -quiet
+get_global timing_enable_path_group_priority
+get_global timing_constraint_enable_group_path_resetting
+set_global timing_enable_path_group_priority false
+set_global timing_constraint_enable_group_path_resetting false
+getOptMode -allowPreCTSClkSrcPaths -quiet
+set_global _is_ipo_interactive_path_groups 1
+group_path -name in2reg_tmp.25620 -from {0x5c 0x5f} -to 0x60 -ignore_source_of_trigger_arc
+getOptMode -allowPreCTSClkSrcPaths -quiet
+set_global _is_ipo_interactive_path_groups 1
+group_path -name in2out_tmp.25620 -from {0x63 0x66} -to 0x67 -ignore_source_of_trigger_arc
+set_global _is_ipo_interactive_path_groups 1
+group_path -name reg2reg_tmp.25620 -from 0x69 -to 0x6a
+set_global _is_ipo_interactive_path_groups 1
+group_path -name reg2out_tmp.25620 -from 0x6d -to 0x6e
+setPathGroupOptions reg2reg_tmp.25620 -effortLevel high
+reset_path_group -name in2out_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+setDelayCalMode -ignoreNetLoad false
+set delaycal_use_default_delay_limit 1000
+set delaycal_default_net_delay 1000ps
+set delaycal_default_net_load 0.5pf
+set delaycal_default_net_load_ignore_for_ilm 0
+getPlaceMode -place_global_exp_ignore_low_effort_path_groups -quiet
+getPlaceMode -exp_slack_driven -quiet
+getPlaceMode -quiet -cong_repair_commit_clock_net_route_attr
+getPlaceMode -enableDbSaveAreaPadding -quiet
+getPlaceMode -quiet -wireLenOptEffort
+setPlaceMode -reset -improveWithPsp
+getPlaceMode -quiet -debugGlobalPlace
+getPlaceMode -congRepair -quiet
+getPlaceMode -fp -quiet
+getPlaceMode -user -rplaceIncrNPClkGateAwareMode
+getPlaceMode -user -congRepairMaxIter
+getPlaceMode -quiet -congRepairPDClkGateMode4
+setPlaceMode -rplaceIncrNPClkGateAwareMode 4
+getPlaceMode -quiet -congEffort
+setPlaceMode -congRepairMaxIter 1
+getDesignMode -quiet -congEffort
+getPlaceMode -quickCTS -quiet
+get_proto_model -type_match {flex_module flex_instgroup} -committed -name -tcl
+getPlaceMode -congRepairForceTrialRoute -quiet
+getPlaceMode -user -congRepairForceTrialRoute
+setPlaceMode -congRepairForceTrialRoute true
+congRepair
+setPlaceMode -reset -congRepairForceTrialRoute
+getPlaceMode -quiet -congRepairPDClkGateMode4
+setPlaceMode -reset -rplaceIncrNPClkGateAwareMode
+setPlaceMode -reset -congRepairMaxIter
+getPlaceMode -congRepairCleanupPadding -quiet
+getPlaceMode -quiet -wireLenOptEffort
+getPlaceMode -exp_slack_driven -quiet
+reset_path_group -name reg2reg_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+reset_path_group -name reg2out_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+reset_path_group -name in2reg_tmp.25620
+set_global _is_ipo_interactive_path_groups 0
+set_global timing_enable_path_group_priority $gpsPrivate::optSave_ctePGPriority
+set_global timing_constraint_enable_group_path_resetting $gpsPrivate::optSave_ctePGResetting
+getPlaceMode -place_global_exp_incr_skp_preserve_mode_v2 -quiet
+getPlaceMode -tdgpDumpStageTiming -quiet
+getPlaceMode -quiet -tdgpAdjustNetWeightBySlack
+getPlaceMode -trimView -quiet
+getOptMode -quiet -viewOptPolishing
+getOptMode -quiet -fastViewOpt
+spInternalUse deleteViewOptManager
+setAnalysisMode -clkSrcPath true -clockPropagation sdcControl
+getPlaceMode -exp_slack_driven -quiet
+setExtractRCMode -engine preRoute
+setPlaceMode -reset -relaxSoftBlockageMode
+setPlaceMode -reset -ignoreScan
+setPlaceMode -reset -repairPlace
+setvar spgSpeedupBuildVSM 0
+getPlaceMode -macroPlaceMode -quiet
+getPlaceMode -exp_slack_driven -quiet
+getPlaceMode -enableDistPlace -quiet
+getPlaceMode -place_global_ignore_spare -quiet
+getPlaceMode -tdgpMemFlow -quiet
+setPlaceMode -reset -resetCombineRFLevel
+getPlaceMode -enableDistPlace -quiet
+setPlaceMode -reset -expHiddenFastMode
+getPlaceMode -tcg2Pass -quiet
+getPlaceMode -quiet -wireLenOptEffort
+getPlaceMode -fp -quiet
+getPlaceMode -fastfp -quiet
+getPlaceMode -doRPlace -quiet
+getPlaceMode -RTCPlaceDesignFlow -quiet
+getPlaceMode -quickCTS -quiet
+set spgFlowInInitialPlace 0
+getPlaceMode -user -maxRouteLayer
+spInternalUse TDGP resetIgnoreNetLoad
+getPlaceMode -place_global_exp_balance_pipeline -quiet
+getDesignMode -quiet -flowEffort
+report_message -end_cmd
+um::create_snapshot -name final -auto min
+um::pop_snapshot_stack
+um::create_snapshot -name place_design
+getPlaceMode -exp_slack_driven -quiet
+setDrawView place
+selectInst {pres_state_reg[1]}
+placeInstance {pres_state_reg[1]} 639.0 505.0 MX
+selectInst {pres_state_reg[0]}
+placeInstance {pres_state_reg[0]} 888.0 139.0 MX
+selectInst {pres_state_reg[2]}
+placeInstance {pres_state_reg[2]} 568.0 155.0 MX
+selectInst {pres_state_reg[3]}
+placeInstance {pres_state_reg[3]} 389.0 150.0 MX
+selectInst {pres_state_reg[4]}
+placeInstance {pres_state_reg[4]} 253.0 736.0 MX
+selectInst {fill_tmp_reg[0]}
+placeInstance {fill_tmp_reg[0]} 596.0 850.0 MX
+selectInst {fill_tmp_reg[1]}
+placeInstance {fill_tmp_reg[1]} 681.0 638.0 MX
+selectInst {fill_tmp_reg[2]}
+placeInstance {fill_tmp_reg[2]} 747.0 539.0 MX
+selectInst {fill_tmp_reg[3]}
+placeInstance {fill_tmp_reg[3]} 506.0 759.0 MX
+selectInst {fill_tmp_reg[4]}
+placeInstance {fill_tmp_reg[4]} 570.0 867.0 MX
+saveDesign rng_self_calib_Placed.enc
+globalDetailRoute
+saveDesign rng_self_calib_routed.enc
+fit
+gui_select -rect {-25.83900 606.97000 18.55250 533.55300}
+deselectAll
+gui_select -rect {-39.49800 591.60350 131.23900 494.28350}
+deselectAll
+zoomBox -17.30200 629.16550 52.70000 487.45400
+zoomBox -5.98550 571.29150 24.73500 549.88650
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+zoomBox -1.93200 554.84600 3.03600 549.83850
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox -0.66000 567.27250 -0.14150 567.54600
+gui_select -rect {-0.47500 567.40200 -0.44700 567.41450}
+deselectAll
+fit
+zoomBox -48.88800 595.01800 68.92050 504.52750
+zoomBox -5.80400 565.78250 11.78800 542.36900
+zoomBox 3.48300 563.32650 8.06750 558.54550
+selectObject Pin fsm_comb_1/g16069/A
+deselectAll
+selectInst fsm_comb_1/g16069
+deselectAll
+selectObject Pin fsm_comb_1/g16069/B
+deselectAll
+selectObject Pin fsm_comb_1/g16069/C
+deselectAll
+selectObject Pin fsm_comb_1/g16069/C
+deselectAll
+selectObject Pin fsm_comb_1/g16069/Y
+fit
+zoomBox 1042.12100 591.60350 1089.92700 531.84550
+zoomBox 1055.74400 558.92450 1062.93150 551.31900
+zoomBox 1059.24200 555.43550 1060.84850 554.48900
+fit
+zoomBox -45.47350 583.06650 51.84650 473.79500
+zoomBox -6.90000 565.79700 20.91450 531.56350
+zoomBox -1.70700 547.17200 0.59150 543.77250
+panPage 0 -1
+panPage 0 -1
+zoomBox -2.70850 542.30650 1.54500 544.76300
+zoomOut
+zoomOut
+zoomOut
+zoomBox -3.08600 563.52600 9.16000 531.52050
+zoomBox -2.87200 558.69150 3.17100 548.44100
+zoomIn
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox -181.01800 799.18500 142.99050 192.97550
+zoomBox -38.51400 606.72400 31.00900 494.80850
+zoomBox 6.26500 544.42700 24.26550 533.47000
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage -1 0
+zoomBox -2.36650 554.04650 23.89150 569.21150
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 1
+fit
+zoomBox -31.81450 644.53200 340.39200 390.13400
+zoomBox -14.00550 579.06450 29.04650 525.69450
+zoomBox -2.70600 563.46400 1.17550 557.56700
+zoomBox -0.89700 561.72400 0.42250 560.75050
+fit
+zoomBox 461.61550 1144.79100 751.86800 994.54250
+fit
+zoomBox 521.37300 905.75950 603.32700 798.19500
+zoomBox 566.71250 873.56550 581.45550 860.92850
+zoomBox 569.66550 868.61650 571.60950 867.02600
+deselectAll
+selectObject Pin {fill_tmp_reg[4]/CLK}
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox -1968.94750 2772.50900 3942.15500 -2306.66050
+zoomBox -313.37950 1351.76250 1725.39200 -459.69000
+zoomBox -76.84550 723.45450 125.83450 487.83900
+zoomBox -8.78850 579.77850 45.58450 533.31450
+zoomBox -3.11200 547.35100 3.38650 541.43750
+zoomBox -0.81400 544.82000 0.49250 543.93500
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 186.65800 792.11300 319.32550 651.32300
+zoomBox 246.69050 747.02100 264.21550 728.70850
+zoomBox 252.58400 739.26050 255.27350 736.23850
+zoomBox 253.15550 737.82350 253.85700 737.06700
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 427.07050 967.70600 776.51350 655.29000
+zoomBox 524.88950 885.56050 608.34600 829.63100
+deselectAll
+zoomBox 593.68300 855.52300 599.94050 847.62250
+zoomBox 595.77300 851.56700 596.94450 850.79350
+selectObject Pin {fill_tmp_reg[0]/CLK}
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 564.45500 872.17150 575.41050 860.95250
+zoomBox 570.29350 865.72250 570.52900 865.34600
+deselectAll
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 567.55300 871.05800 572.88500 865.68300
+zoomBox 569.94050 868.60750 571.24850 867.58500
+selectObject Pin {fill_tmp_reg[4]/CLK}
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox -48.69900 782.08300 1258.69600 -168.75000
+zoomBox -171.09450 -57.24300 1228.29250 750.96500
+zoomBox -218.17050 -168.35100 1428.16700 782.48200
+panPage 0 1
+panPage 0 -1
+zoomBox 831.07050 196.02400 914.85000 118.89350
+zoomBox 884.07100 143.70450 898.09500 135.39850
+zoomBox 887.15650 141.71800 888.78250 140.25450
+zoomBox 887.87150 141.25950 888.13100 140.99550
+fit
+zoomBox -38.64400 601.84750 99.65300 482.33200
+zoomBox -7.27300 552.03550 13.95600 535.65450
+zoomBox -2.01950 545.62050 3.31850 542.34450
+zoomBox -0.41850 544.71350 0.30550 544.07650
+deselectAll
+selectObject IO_Pin clk
+panPage 0 -1
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 8.55650 547.77600 16.42300 541.35300
+zoomBox 12.32800 545.75500 12.84900 545.35950
+zoomBox 12.40850 545.61300 12.48400 545.55850
+deselectAll
+fit
+zoomBox -40.35150 576.23700 60.38350 482.33200
+zoomBox -5.87600 562.97200 5.41900 543.92850
+zoomBox -19.63450 542.58400 19.15800 564.98850
+zoomBox -1.02150 545.09100 1.04650 543.64950
+selectObject IO_Pin clk
+setLayerPreference node_layer -isVisible 1
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+setLayerPreference node_net -isVisible 0
+setLayerPreference clock -isVisible 1
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox -555.56550 1609.22650 1931.30550 -388.20700
+zoomBox 78.86250 980.66350 791.23400 480.60650
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+zoomBox 490.99850 884.14900 612.69050 826.80000
+zoomBox 563.44350 870.36650 588.21450 851.39500
+zoomBox 570.01800 865.32500 571.02600 864.31700
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 567.66650 856.19750 575.31850 851.17250
+zoomBox 570.13600 854.14550 570.99350 853.82900
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 579.65400 859.62450 595.98050 850.53550
+zoomBox 586.92050 854.26900 587.63250 853.70150
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 593.83450 857.16750 602.70750 843.27950
+zoomBox 595.35750 852.77750 597.20250 851.39850
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 802.96400 288.97600 954.81450 65.41850
+zoomBox 868.88350 168.28600 900.46300 142.02200
+zoomBox 883.31400 157.63350 884.93050 156.20100
+deselectAll
+selectWire 569.3000 156.8100 888.0000 156.8800 3 clk
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 872.92300 152.29150 912.36250 128.92000
+zoomBox 886.72600 142.61600 890.35450 139.24900
+zoomBox 887.85700 140.40250 888.76600 139.69150
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 882.02850 156.84100 893.14400 148.86700
+zoomOut
+zoomOut
+zoomBox 884.27350 158.02300 890.79750 152.90400
+zoomBox 887.40650 157.09950 888.40850 156.36900
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 342.58500 200.31500 575.01750 79.62900
+panPage -1 0
+zoomBox 367.29250 169.54250 410.66250 134.99650
+zoomOut
+zoomOut
+zoomIn
+panPage -1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage -1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage 1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+zoomBox 631.04150 170.60550 657.42250 149.58750
+deselectAll
+selectObstruct 643.72 130.91 648.28 212.42 defScreenName
+deselectAll
+selectObstruct 657.78 145.73 662.34 185.25 defScreenName
+zoomOut
+zoomOut
+zoomOut
+zoomBox 560.89500 177.16100 585.49950 144.61950
+zoomBox 564.18600 162.77900 575.33650 153.90400
+zoomBox 566.74450 159.30350 574.52750 154.78550
+zoomBox 567.67850 158.29900 569.53000 156.35900
+zoomOut
+zoomBox 566.23550 159.65300 570.97300 155.59950
+zoomBox 567.16450 158.56450 570.80400 155.75250
+deselectAll
+selectWire 569.3000 156.8100 569.3700 464.6800 2 clk
+deselectAll
+selectWire 389.1800 156.8100 568.5150 156.8800 3 clk
+zoomBox 569.17650 157.03450 569.54650 156.70050
+zoomOut
+zoomOut
+zoomBox 569.11700 156.96200 569.54200 156.64650
+deselectAll
+selectWire 568.4450 156.8100 569.3700 156.8800 3 clk
+deselectAll
+selectVia 569.2650 156.7750 569.4050 156.9150 3 clk
+zoomOut
+zoomOut
+zoomOut
+zoomIn
+zoomOut
+zoomOut
+zoomOut
+deselectAll
+selectObstruct 612.94 123.5 629.28 153.14 defScreenName
+help createRouteBlockage
+help createPlaceBlockage
+help createRouteBlk
+fit
+zoomBox -7.91150 74.27050 142.33700 -38.41600
+zoomBox 15.51850 22.10350 34.11600 6.81600
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomOut
+zoomOut
+zoomBox 3.45700 53.61950 56.76100 7.05100
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomBox 20.99050 21.57500 23.59600 15.06200
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomBox 13.22650 14.27300 31.59050 24.87900
+zoomBox 15.70000 14.83250 28.96850 22.49550
+zoomBox 11.64500 13.89800 33.25100 26.37650
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox -59.54400 91.52650 162.39900 -95.07550
+deselectAll
+selectObstruct 50.92 24.7 194.18 29.64 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomBox 19.58750 49.50850 39.42200 18.19050
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 27.74 41.99 31.16 111.15 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+deselectAll
+selectObstruct 21.66 14.82 39.14 44.46 defScreenName
+zoomBox -8.87450 9.81750 66.17950 53.16450
+zoomBox -24.52200 -1.68550 79.35900 58.31050
+createRouteBlk -box { 22 15 39 43 }
+zoomOut
+zoomOut
+zoomBox -2.78950 83.06400 87.83400 -10.58000
+deselectAll
+selectRouteBlk -box 22 15 39 43 defLayerBlkName -layer metal3
+setSelectedRouteBlk 22.0 15.0 39.0 43.0 defLayerBlkName {{1 } {V1 } {2 } {V2 } {3 } {V3 } {4 } {V4 } {5 } {V5 } {6 } {V6 } {7 } {V7 } {8 } {V8 } {9 } {V9 } {10 } {V10 }} {Undefined ALLNET} {} {}

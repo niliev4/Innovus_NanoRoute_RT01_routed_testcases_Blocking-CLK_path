@@ -1,0 +1,10 @@
+this is to Block placement
+
+createPlaceBlockage -box { 160 167 263 170 }
+
+then these 3 commands to Block routing (all metal layers)` in this same area
+
+createRouteBlk -box { 160 167 263 170 }
+selectRouteBlk -box 160 167 263 170 defLayerBlkName -layer metal3
+setSelectedRouteBlk 160 167 263 170 defLayerBlkName {{1 } {V1 } {2 } {V2 } {3 } {V3 } {4 } {V4 } {5 } {V5 } {6 } {V6 } {7 } {V7 } {8 } {V8 } {9 } {V9 } {10 } {V10 }} {Undefined ALLNET} {} {}
+

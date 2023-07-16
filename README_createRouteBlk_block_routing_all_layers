@@ -1,0 +1,6 @@
+
+createRouteBlk -box { 22 15 39 43 }
+selectRouteBlk -box 22 15 39 43 defLayerBlkName 
+
+setSelectedRouteBlk 22.0 15.0 39.0 43.0 defLayerBlkName {{1 } {V1 } {2 } {V2 } {3 } {V3 } {4 } {V4 } {5 } {V5 } {6 } {V6 } {7 } {V7 } {8 } {V8 } {9 } {V9 } {10 } {V10 }} {Undefined ALLNET} {} {}
+
